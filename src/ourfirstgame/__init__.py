@@ -31,5 +31,3 @@ def main_loop():
 
     #Chiude pygame
     pygame.quit()
-
-main_loop()
