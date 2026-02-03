@@ -7,7 +7,7 @@ def main_loop():
     pygame.init()
 
     # lo screen (con titolo)
-    screen = pygame.display.set_mode((1320, 650))
+    screen = pygame.display.set_mode((1280, 656))
     pygame.display.set_caption("Il mio primo gioco con PyGame!")
 
     running = True
@@ -31,3 +31,5 @@ def main_loop():
 
     #Chiude pygame
     pygame.quit()
+
+main_loop()
